@@ -22,6 +22,7 @@
  * BoxJS订阅：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
  * (不推荐！)手动配置项为config, 请看注释
  */
+ */whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
 
 let config = {
   global_direct: "♲ 𝐃𝐢𝐫𝐞𝐜𝐭",
@@ -29,9 +30,9 @@ let config = {
   silence: false, // 是否静默运行，默认false
   cellular: "RULE", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
   wifi: "RULE", // wifi下默认的模式
-  all_direct: ["WRT32X", "WRT32X Extreme"], // 指定全局直连的wifi名字
+  all_direct: ["@PHICOMM_15", "@PHICOMM_5G"], // 指定全局直连的wifi名字
   all_proxy: [], // 指定全局代理的wifi名字
-  whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
+  whitelist: [],
 };
 
 const isLoon = typeof $loon !== "undefined";
