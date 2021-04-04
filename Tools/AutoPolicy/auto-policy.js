@@ -21,8 +21,9 @@
  * 推荐使用BoxJS配置。
  * BoxJS订阅：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
  * (不推荐！)手动配置项为config, 请看注释
+ * whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
  */
- */whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
+
 
 let config = {
   global_direct: "♲ 𝐃𝐢𝐫𝐞𝐜𝐭",
