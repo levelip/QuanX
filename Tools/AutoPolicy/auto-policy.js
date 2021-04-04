@@ -33,7 +33,7 @@ let config = {
   wifi: "RULE", // wifi下默认的模式
   all_direct: ["@PHICOMM_15", "@PHICOMM_5G"], // 指定全局直连的wifi名字
   all_proxy: [], // 指定全局代理的wifi名字
-  whitelist: [],
+  whitelist: ["𝑵𝒆𝒕𝒆𝒂𝒔𝒆 𝑴𝒖𝒔𝒊𝒄", "𝑨𝒅𝑮𝒖𝒂𝒓𝒅"],
 };
 
 const isLoon = typeof $loon !== "undefined";
